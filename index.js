@@ -1,5 +1,5 @@
 const person = ["Lisa", "Kaitlin", "Jan"];
-const person = ["Lisa", "Kaitlin", "Jan"];
+
 function writeCards(person,event){
   const messArr = [];
   for(let i = 0; i < person.length; i++){
