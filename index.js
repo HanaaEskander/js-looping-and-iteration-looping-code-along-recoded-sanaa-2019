@@ -9,10 +9,10 @@ function writeCards(person,event){
 }
 writeCards(messArr, "surprise");
 
-function countdown(start){
-  while (start >= 0) {
-    console.log(start);
-    start--;
+function countdown(digit){
+  while (digit >= 0) {
+    console.log(digit);
+    digit--;
   }
 }
 
