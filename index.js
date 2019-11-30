@@ -9,11 +9,11 @@ function writeCards(person,event){
 }
 writeCards(messArr, "surprise");
 
-function countdown(digit){
+function countDown(digit){
   while (digit >= 0) {
     console.log(digit);
     digit--;
   }
 }
 
-countdown(15);
+countDown(15);
