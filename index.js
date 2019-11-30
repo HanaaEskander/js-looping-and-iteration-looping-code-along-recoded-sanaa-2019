@@ -16,4 +16,4 @@ function countdown(digit){
   }
 }
 
-countdown(10);
+countdown(15);
