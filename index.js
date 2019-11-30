@@ -1,17 +1,18 @@
 const person = ["Lisa", "Kaitlin", "Jan"];
+const person = ["Lisa", "Kaitlin", "Jan"];
 function writeCards(person,event){
   const messArr = [];
-  for(let i = 0; i < friends.length; i++){
-    messages.push(`Thank you, ${friends[i]}, for the wonderful ${eName} gift!`);
+  for(let i = 0; i < person.length; i++){
+    messArr.push(`Thank you, ${person[i]}, for the wonderful ${event} gift!`);
   }
-  return messages;
+  return messArr;
 }
-writeCards(friends, "birthday");
+writeCards(messArr, "surprise");
 
-function countdown(num){
-  while (num >= 0) {
-    console.log(num);
-    num--;
+function countdown(start){
+  while (start >= 0) {
+    console.log(start);
+    start--;
   }
 }
 
